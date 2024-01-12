@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Map</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="mapContainer">
+        <img src="https://arnel.org/wp-content/uploads/2024/01/map-1.png" alt="Map" id="mapImage">
+        <svg id="svgOverlay" style="position: absolute; top: 0; left: 0;"></svg>
+        <div id="popup" class="hidden">
+            <!-- Popup content will be generated dynamically -->
+        </div>
+    </div>
+    <div id="coordinateDisplay"></div> <!-- Container for displaying coordinates -->
+    <button id="resetCoordinates">Reset Coordinates</button> <!-- Reset Button -->
+    <script src="script.js"></script>
+</body>
+</html>

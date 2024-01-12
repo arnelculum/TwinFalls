@@ -1,0 +1,44 @@
+#mapContainer {
+    position: relative;
+    width: 2010px;  /* Width of the map image */
+    height: 2325px; /* Height of the map image */
+}
+
+#mapImage {
+    width: 100%;
+    height: auto;
+}
+
+#svgOverlay {
+    width: 100%;
+    height: 100%;
+}
+
+#popup {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+.popupImage {
+    width: 100%; /* Adjust width as needed */
+    margin-bottom: 10px;
+}
+
+#closePopup {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Additional custom styles */

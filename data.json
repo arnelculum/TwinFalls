@@ -1,0 +1,41 @@
+[
+    {
+        "address": "159 10th Ave N",
+        "coordinates": [
+            { "x": 1398, "y": 580 },
+            { "x": 1504, "y": 690 },
+            { "x": 1345, "y": 853 },
+            { "x": 1238, "y": 744 }
+        ],
+        "images": [
+            "https://arnel.org/wp-content/uploads/2024/01/park.jpg",
+            "https://arnel.org/wp-content/uploads/2024/01/park2.jpg"
+        ]
+    },
+    {
+        "address": "153 10th Ave N",
+        "coordinates": [
+            { "x": 920, "y": 988 },
+            { "x": 937, "y": 1005 },
+            { "x": 914, "y": 1030 },
+            { "x": 894, "y": 1012 }
+        ],
+        "images": [
+            "https://arnel.org/wp-content/uploads/2024/01/hotel1.jpg",
+            "https://arnel.org/wp-content/uploads/2024/01/hotel2.jpg"
+        ]
+    },
+    {
+        "address": "Some Other Address",
+        "coordinates": [
+            { "x": 1611, "y": 138 },
+            { "x": 1617, "y": 145 },
+            { "x": 1608, "y": 154 },
+            { "x": 1601, "y": 147 }
+        ],
+        "images": [
+            "https://arnel.org/wp-content/uploads/2024/01/otherimage1.jpg",
+            "https://arnel.org/wp-content/uploads/2024/01/otherimage2.jpg"
+        ]
+    }
+]
