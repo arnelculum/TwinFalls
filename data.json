@@ -1,6 +1,6 @@
 [
     {
-        "address": "159 10th Ave N",
+        "address": "400 Shoshone St E",
         "coordinates": [
             { "x": 1398, "y": 580 },
             { "x": 1504, "y": 690 },
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "address": "153 10th Ave N",
+        "address": "113 Main Ave W",
         "coordinates": [
             { "x": 920, "y": 988 },
             { "x": 937, "y": 1005 },
