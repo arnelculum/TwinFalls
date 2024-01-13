@@ -5,17 +5,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#"><li>Warehouse Historic District</li></a>
+                <a href="#"><li>Down Town Historic District</li></a>
+                <a href="#"><li>City Park Historic District</li></a>
+                <a href="#"><li>Shoshone Falls</li></a>
+                <a href="#"><li>I.B. Perrine</li></a>
+            </ul>
+        </div>
+    </nav>
+
     <div id="mapContainer">
         <img src="https://arnel.org/wp-content/uploads/2024/01/map-1.png" alt="Map" id="mapImage">
         <svg id="svgOverlay" style="position: absolute; top: 0; left: 0;"></svg>
         <div id="popup" class="hidden">
-            <!-- The grid for the infinite scrolling feature will be here -->
             <div id="grid" class="grid-container hidden"></div>
-            <!-- Popup content will be generated dynamically above the grid -->
         </div>
     </div>
-    <div id="coordinateDisplay"></div> <!-- Container for displaying coordinates -->
-    <button id="resetCoordinates">Reset Coordinates</button> <!-- Reset Button -->
+    <div id="coordinateDisplay"></div>
+    <button id="resetCoordinates">Reset Coordinates</button>
     <script src="script.js"></script>
 </body>
 </html>
+

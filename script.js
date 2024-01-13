@@ -18,6 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.getElementById('svgOverlay').appendChild(polygon);
       });
+
+      // Menu Icon click event
+      var menuIcon = document.getElementById('menuIcon');
+      if (menuIcon) {
+        menuIcon.addEventListener('click', function() {
+          var menuContent = document.getElementById('menuContent');
+          if (menuContent) {
+            // Toggle the 'show' class to display or hide the menu
+            menuContent.classList.toggle('show');
+          }
+        });
+      }
     })
     .catch(error => console.error('Error fetching data:', error));
 
